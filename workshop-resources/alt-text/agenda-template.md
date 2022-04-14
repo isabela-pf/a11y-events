@@ -1,6 +1,10 @@
 
 # Template for alt text/image description event agendas
 
+> *Event agendas are the core resource for an event. This document consolidates all links and knowledge needed in order to participate in the event and helps participants know what to expect. While this document does not usually get contributed to a project, saving it as documentation for the event is recommended. Agendas may benefit from the addition of resources specific to the project the event is supporting, like a documentation style guide, a project glossary, or the like.*
+
+> *Please delete any comments using the `>*text here*` syntax before using this template in the wild.*
+
 An event for [project name and link]()!
 
 ## Intro

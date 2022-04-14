@@ -1,5 +1,9 @@
 # Welcome to the working PR!
 
+> *Working PRs are the pull requests on an event host's fork of the main project. This PR allows participants to contribute image desctiptions/alt text via GitHub suggestions for in order to commit to the branch. This PR template has information about how to participate and needs to link back to other support resources.*
+
+> *Please delete any comments using the `>*text here*` syntax before using this template in the wild.*
+
 This is the working PR for the [project name] alt text workshops! This is where we collaborate during the event before we send a clean contribution over to the [main repo]().
 
 For the full info about this event, please visit the [event agenda]().

@@ -1,3 +1,10 @@
+
+> *Contributing PRs are the pull requests from an event host's fork of the main project to the main project (the upstream repo). This PR template provides a framework for summarizing the changes contibuted, offers support to the reviewer in case they have questions about this type of contribution, and mentions that this was a collaborative effort.*
+
+> *This PR template should be used as an addition to the main project's own PR template (if they have one). Be sure to answer what they ask of you in their template to the best of your ability and respect their contributing guidelines.*
+
+> *Please delete any comments using the `>*text here*` syntax before using this template in the wild.*
+
 This PR adds or updates existing [alt text](https://www.w3.org/WAI/fundamentals/accessibility-intro/#examples) to [project name]. It includes alt text for
 - List where contributions happen.
 - There may be only one location or multiple.
