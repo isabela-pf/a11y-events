@@ -1,6 +1,6 @@
 # Welcome to the working PR!
 
-> *Working PRs are the pull requests on an event host's fork of the main project. This PR allows participants to contribute image desctiptions/alt text via GitHub suggestions for in order to commit to the branch. This PR template has information about how to participate and needs to link back to other support resources.*
+> *Working PRs are the pull requests on an event host's fork of the main project. This PR allows participants to contribute image desctiptions/alt text via GitHub suggestions for in order to commit to the branch. This PR template has information about how to participate and needs to link back to other support resources like the agenda.*
 
 > *Please delete any comments using the `>*text here*` syntax before using this template in the wild.*
 
@@ -16,7 +16,7 @@ For the full info about this event, please visit the [event agenda]().
 
 📚 If you need a reference for how to format your suggestions, [alt text in Markdown files (ends with `.md`) follow this format](https://www.markdownguide.org/basic-syntax/#images-1) while [alt text in RST files (ends with `.rst`) follow this format](https://sublime-and-sphinx-guide.readthedocs.io/en/latest/images.html).
 
-> *The below section is optional, review if your contribution is all new alt text, or you will be editing existing*
+> *The below section is optional, review if your contribution is all new alt text, or you will be editing existing ones.*
 
 🖼️ There are two types of images in this PR: ones that already have alt text and ones that have none. 
 - Images that appear in this PR with existing alt text are still worth reviewing and editing! If you think they could benefit from a different description, please suggest one.
@@ -37,7 +37,7 @@ File: `file-name` ([Link to rendered version of this file]())
 - [ ] 3. Line number (or other identifying feature)
 
 
-> *If listing every file and line number is too long or time-consuming, the alternate list format below has also been used.*
+> *If listing every file and line number is too long or time-consuming, the below link-only list format has also been used.*
 
 By file, here is where the images appear.
 
