@@ -4,7 +4,7 @@ Team up to make images on the internet more accessible!
 
 Alt text/image description workshops gather community to learn and practice providing text equivalents for images of all content and contexts. This can be done for any set of images, and the most common contributions are to project documentation or websites. At the end, everyone's work gets wrapped up to a neat PR for contribution back to the main project.
 
-## Reources
+## Resources
 
 In this directory, you'll find the
 - [agenda template](agenda-template.md)
