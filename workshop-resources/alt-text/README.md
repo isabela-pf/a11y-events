@@ -11,7 +11,6 @@ In this directory, you'll find the
 - [working PR template](working-pr-template.md)
 - [contributing PR template](contributing-pr-template.md)
 
-
 ## Past events
 
 Listed from oldest to newest
@@ -29,3 +28,13 @@ Listed from oldest to newest
 | 2022 | napari | [isabela-pf/napari #2](https://github.com/isabela-pf/napari/pull/2) | [napari/napari #4375](https://github.com/napari/napari/pull/4375) | Merged |  |
 | 2022 | Scientific Python Blog | [MarsBarLee/blog.scientific-python.org #1](https://github.com/MarsBarLee/blog.scientific-python.org/pull/1) | [scientific-python/blog.scientific-python.org #71](https://github.com/scientific-python/blog.scientific-python.org/pull/71) | Open |  |
 |  |  |  |  |  |  |
+
+## Roll the credits
+
+While anyone can run these events, there are a few kind people who conceptualized, prototyped, and tested them out from the beginning. Special thanks to
+- [@tonyfast](https://github.com/tonyfast/)
+- [@isabela-pf](https://github.com/isabela-pf/)
+- [@MarsBarLee](https://github.com/MarsBarLee/)
+- [@melissawm](https://github.com/melissawm/)
+
+!
