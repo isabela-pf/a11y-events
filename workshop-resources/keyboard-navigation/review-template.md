@@ -59,12 +59,12 @@ All areas of the tool can be accessed using keyboard navigation. ([WCAG 2.2 Keyb
 
 | Area | Able to navigate to the area (yes/no/not applicable) | Able to navigate fully within the area (yes/no/not applicable) | Able to navigate out of the area (yes/no/not applicable) |
 |---|---|---|---|
-| Menu bar | a | b | c |
-| Main document area tool bar | d | e | f |
-| Main document area | g | h | i |
-| Left side bar | j | k | l |
-| Right side bar | m | n | o |
-| Status bar | p | q | r |
+| Navigation 1 | a | b | c |
+| Navigation 2 | d | e | f |
+| Aside/related content | g | h | i |
+| Main area | j | k | l |
+| Main area section | m | n | o |
+| Footer | p | q | r |
 
 Other notes by area:
 

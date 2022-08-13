@@ -20,16 +20,20 @@ We are all learning, so please don't hesitate to ask questions.
 
 > *For a one-hour event*
 
-- 0 minutes-30: Welcome, keyboard navigation information, and goals for the event
+- 0 minutes-20: Welcome, keyboard navigation information, and goals for the event
+- 20–30: Questions 
 - 30–50: Work time!
 - 50–60: Review contributions upon request and answer final questions
 - Optional: Submit your favorite reviews to the hall of fame! 
 
 > *For a two-hour event*
 
-- 0 minutes-35: Welcome, keyboard navigation information, and goals for the event
+- 0 minutes-20: Welcome, keyboard navigation information, and goals for the event
+- 20–30: Questions 
+- 30-35: Break
 - 35–90: Work time!
-- 90–120: Review contributions upon request and answer final questions
+- 90–95: Break
+- 95–120: Review contributions upon request and answer final questions
 - Optional: Submit your favorite reviews to the hall of fame! 
 
 ## Resources
@@ -37,19 +41,22 @@ We are all learning, so please don't hesitate to ask questions.
 Needed for the event:
 - [The collaborative event PR]()
 - [Slides]()
-- 
 - [Project we are contributing to (ie. the documentation, website, or something similar; this should be the final rendered place.)]()
+- [Keyboard navigation - what to press](https://github.com/isabela-pf/a11y-events/tree/main/workshop-resources/keyboard-navigation/what-to-press.md) 
 
 Extra information: 
-- 
+- [Keyboard Accessibility - WebAIM](https://webaim.org/techniques/keyboard/)
+- [Browsing with a keyboard - Tetralogical blog](https://tetralogical.com/blog/2021/10/26/browsing-with-a-keyboard/)
+- [Quick accessibility tests anyone can do - Tetralogical blog](https://tetralogical.com/blog/2022/01/18/quick-accessibility-tests-anyone-can-do/)
+
 
 ## How to participate
 
 1. Go to [our working PR]() and review the types of keyboard navigation review listed.
 2. Comment on the PR which section of review you plan to work on. You can work as a team if desired!
-3. Using the steps listed in your section and the Resources section of this agenda, review your the tool's interface.
-4. Take note of what happens when completing review steps, making sure you can reproduce the review as needed. Mark down any questions you have as well; questions are a helpful thing to report too!
-5. Make sure to note responses to the questions listed in the review section. While you can always add more information, these are the foundation.
+3. Using the steps listed in your section of the working PR and the Resources section of this agenda, review the interface.
+4. Take note of what happens when completing review steps, making sure you can reproduce the review as needed. Mark down any questions you have as well!
+5. Make sure to note fill out all areas in your section, even if you need to mark them as n/a  or not completable. While you can always add more information, these are the foundation.
 6. Submit your review notes on the PR via single-comment [GitHub suggestions](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request). Add review on the line of the "Result" prompt, into a table cell, or in the "Notes" prompt at the end of each section.
 
 **Note:** If you think anything is missing, please tell [event host] and they can add it.
@@ -65,7 +72,7 @@ These are a few of the main things we need to make sure our reviews are trackabl
 The review has
 - [ ] All requested information has been added or marked "n/a"
 - [ ] There is enough information that someone could recreate the review task (it's reproducible)
-- [ ] If an area could not be completed, it is marked "could not be completed"
+- [ ] If an area could not be completed, it is marked "could not be completed" with additional notes as needed
 - [ ] The review is added as a [GitHub suggestion](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request) (so reviewers get credit)
 
 ## Questions
