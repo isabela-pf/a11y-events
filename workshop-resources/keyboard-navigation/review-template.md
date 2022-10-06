@@ -7,7 +7,8 @@ Please add your findings as [GitHub suggestions](https://docs.github.com/en/pull
 Reviewed via based on [this link we'll all be working off of]().
 
 - Review date:
-- Software version:
+- Operating system:
+- Browser: 
 - Keyboard language(s) used:
 - Any other details (ie. dependencies, github repo, etc.):
 

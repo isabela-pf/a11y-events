@@ -1,4 +1,4 @@
-# Alt text/image description Workshops
+# Keyboard navigation Workshops
 
 Learn how to surf the web with a keyboard and contribute feedback for keyboard navigation fixes! 
 
