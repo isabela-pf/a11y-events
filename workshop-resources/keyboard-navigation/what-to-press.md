@@ -1,4 +1,4 @@
-# Keyboard navigation - what to press
+# Keyboard navigation references
 
 - Tab: go to the next focusable element
 - Shift + Tab: go to the previous focusable element

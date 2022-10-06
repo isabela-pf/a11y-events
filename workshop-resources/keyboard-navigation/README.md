@@ -1,14 +1,15 @@
-# Keyboard navigation Workshops
+# Keyboard navigation workshops
 
 Learn how to surf the web with a keyboard and contribute feedback for keyboard navigation fixes! 
 
-Keyboard navigation review workshops gather community to learn and practice expected keyboard navigation behavior. Participants also learn foundational tests they can perform and how to describe and present these issues constructively. This can be done confidently for any web interface, and could be adapted to desktop apps. At the end, everyone's work gets wrapped up to a neat for contribution back to the main project.
+Keyboard navigation review workshops gather community to learn and practice expected keyboard navigation behavior. Participants also learn foundational tests they can perform and how to describe and present these issues constructively. This can be done confidently for any web interface, and could be adapted to desktop apps. At the end, everyone's work gets wrapped up for contribution back to the main project.
 
 ## Resources
 
 In this directory, you'll find the
 - [agenda template](agenda-template.md)
 - [keyboard navigation review template](review-template.md)
+- [Keyboard navigation references](what-to-press.md)
 
 ## Past events
 
