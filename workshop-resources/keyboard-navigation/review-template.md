@@ -12,22 +12,25 @@ Reviewed via based on [this link we'll all be working off of]().
 - Keyboard language(s) used:
 - Any other details (ie. dependencies, github repo, etc.):
 
-### Authors
+### Authors and Contents
 
-Participants may add their name below if they would like to be listed publicly as a part of the review.
-
-1.
-2.
-3.
-4.
-5. 
-6.
-7.
-8.
-9.
-10. 
+- Content order: (add author(s))
+- Areas to navigate: (add author(s))
+- Keyboard/tab traps: (add author(s))
+- Skip links: (add author(s))
+- Interactive Areas: (add author(s))
+- Focus: (add author(s))
+- Mixed input: (add author(s))
+- Keyboard shortcuts: (add author(s))
+- Additional authors: (add author(s))
 
 ## Review
+
+### General notes
+
+This is the place for anything a reviewer thinks is important that doesn't belong below. This could be something out of scope of the review, something that will impact all other tests, or the like.
+
+Notes:
 
 ### Content order
 
