@@ -76,7 +76,10 @@ Other notes by area:
 
 When navigating via keyboard, there are no areas where keyboard focus can enter but not exit. The focus never gets "trapped." ([WCAG 2.2 No keyboard trap](https://www.w3.org/TR/WCAG22/#no-keyboard-trap))
 
-From the above section (Areas to navigate), please list all areas where the reviewer could not navigate out of using the keyboard. Notes are welcome!
+1. From the top of the page, press the Tab key repeatedly until reviewer reaches the end of content.
+2. Reviewers will know it is the end because if they press Tab once more their keyboard focus will return to the browser.
+3. If the reviewer cannot make it to the end of content, please take note of where the focus gets stuck. If the reviewer can make it to all content, please note.
+4. Optional: complete steps 1–3 over any areas that may have been missed by the content order. Using the mouse to move focus to an area and trying to tab out may be helpful for these cases.
 
 Keyboard/tab traps:
 - tab trap 1
@@ -198,6 +201,8 @@ Result:
 Other notes or recommendations:
 
 #### Shortcut name
+
+Repeat this section as needed for each shortcut the reviewer evaluates.
 
 Shortcut keys:
 

@@ -9,7 +9,7 @@ Keyboard navigation review workshops gather community to learn and practice expe
 In this directory, you'll find the
 - [agenda template](agenda-template.md)
 - [keyboard navigation review template](review-template.md)
-- [Keyboard navigation references](what-to-press.md)
+- [Keyboard navigation references](getting-started.md)
 
 ## Past events
 
