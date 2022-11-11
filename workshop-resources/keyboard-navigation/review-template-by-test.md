@@ -12,7 +12,7 @@ Reviewed via based on [this link we'll all be working off of]().
 - Keyboard language(s) used:
 - Any other details (ie. dependencies, github repo, etc.):
 
-### Authors and Contents
+### Authors and contents
 
 - Content order: (add author(s))
 - Areas to navigate: (add author(s))
@@ -25,6 +25,8 @@ Reviewed via based on [this link we'll all be working off of]().
 - Additional authors: (add author(s))
 
 ## Review
+
+For this review, participants select a test they would like to complete and apply it to as many areas or states of the interface as they want in the given time.
 
 ### General notes
 
@@ -165,6 +167,8 @@ It is possible to complete tasks while switching between input mechanisms, for e
 6. Repeat as needed across interactive areas.
 
 #### Task name + region
+
+Repeat this section as needed for each task or region the reviewer evaluates.
 
 Does the task have multiple steps? If yes, please list them.
 Result:
