@@ -12,22 +12,27 @@ Reviewed via based on [this link we'll all be working off of]().
 - Keyboard language(s) used:
 - Any other details (ie. dependencies, github repo, etc.):
 
-### Authors
+### Authors and contents
 
-Participants may add their name below if they would like to be listed publicly as a part of the review.
-
-1.
-2.
-3.
-4.
-5. 
-6.
-7.
-8.
-9.
-10. 
+- Content order: (add author(s))
+- Areas to navigate: (add author(s))
+- Keyboard/tab traps: (add author(s))
+- Skip links: (add author(s))
+- Interactive Areas: (add author(s))
+- Focus: (add author(s))
+- Mixed input: (add author(s))
+- Keyboard shortcuts: (add author(s))
+- Additional authors: (add author(s))
 
 ## Review
+
+For this review, participants select a test they would like to complete and apply it to as many areas or states of the interface as they want in the given time.
+
+### General notes
+
+This is the place for anything a reviewer thinks is important that doesn't belong below. This could be something out of scope of the review, something that will impact all other tests, or the like.
+
+Notes:
 
 ### Content order
 
@@ -73,7 +78,10 @@ Other notes by area:
 
 When navigating via keyboard, there are no areas where keyboard focus can enter but not exit. The focus never gets "trapped." ([WCAG 2.2 No keyboard trap](https://www.w3.org/TR/WCAG22/#no-keyboard-trap))
 
-From the above section (Areas to navigate), please list all areas where the reviewer could not navigate out of using the keyboard. Notes are welcome!
+1. From the top of the page, press the Tab key repeatedly until reviewer reaches the end of content.
+2. Reviewers will know it is the end because if they press Tab once more their keyboard focus will return to the browser.
+3. If the reviewer cannot make it to the end of content, please take note of where the focus gets stuck. If the reviewer can make it to all content, please note.
+4. Optional: complete steps 1–3 over any areas that may have been missed by the content order. Using the mouse to move focus to an area and trying to tab out may be helpful for these cases.
 
 Keyboard/tab traps:
 - tab trap 1
@@ -160,6 +168,8 @@ It is possible to complete tasks while switching between input mechanisms, for e
 
 #### Task name + region
 
+Repeat this section as needed for each task or region the reviewer evaluates.
+
 Does the task have multiple steps? If yes, please list them.
 Result:
 
@@ -195,6 +205,8 @@ Result:
 Other notes or recommendations:
 
 #### Shortcut name
+
+Repeat this section as needed for each shortcut the reviewer evaluates.
 
 Shortcut keys:
 
