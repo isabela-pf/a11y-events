@@ -14,6 +14,12 @@ Reviewed via based on [this link we'll all be working off of]().
 
 ### Authors and contents
 
+States/areas reviewed
+- State 1 (author(s))
+- State 2 (author(s))
+- State 3 (author(s))
+- State 4 (author(s))
+
 ## Review
 
 For this review, participants select an area or state of the interface they would like to review and complete as many of the following tests as they want in the given time.
