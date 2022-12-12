@@ -17,10 +17,10 @@ Reviewed via based on [this link we'll all be working off of](https://jupyter-ac
 - Content order: (add author(s))
 - Areas to navigate: (add author(s))
 - Keyboard/tab traps: (add author(s))
-- Skip links: (add author(s))
-- Interactive Areas: (add author(s))
+- Skip links: (add author(s)) @trallard
+- Interactive Areas: @gabalafou
 - Focus: (add author(s))
-- Mixed input: (add author(s))
+- Mixed input: @isabela-pf 
 - Keyboard shortcuts: (add author(s))
 - Additional authors: (add author(s))
 
@@ -45,14 +45,31 @@ When accessed via keyboard, the content order is logical. ([WCAG 2.2 Focus order
 Does the content order follow reviewer expectations based on reading the content?
 Result:
 
+Kind of - the order is as follows:
+
+1. Left sidebar: logo -> search bar -> sidebar items (top to down)
+1. Top left menu: icons left to right
+1. Table of contents: TOC items top to bottom
+1. Main content: links as they appear top to bottom -> Next navigation button
+
+I would expect Areas to go left to right in a left-to-right language
+At no given point I accessed the footer
+
 Does the content order make sense for interacting with the content?
 Result:
+
+I suppose it does - even if I find it confusing with the jumps left -> right -> center
 
 Are any major content areas missed when navigating via keyboard?
 Result:
 
+There is no way to access the left sidebar footer (versions) or the hamburger menu (collapse sidebar)
+
 Are any interactive content areas missed when navigating via keyboard?
 Result:
+
+- There is no way to access the dropdown menus in the left-sidebar
+- Cannot access the hamburger menu (which should be a collapse icon instead)
 
 Other notes or recommendations:
 
@@ -98,20 +115,31 @@ When using keyboard navigation, there is a link to switch keyboard focus directl
 
 Is there a skip link?
 Result:
+No there is not
 
 Is the skip link prompt visible?
 Result:
 
+N/A
+
 What does the skip link prompt skip?
 Result:
+
+N/A
 
 Where does the skip link prompt move user focus to?
 Result:
 
+N/A
+
 Does the skip link behavior meet reviewer expectations?
 Result:
 
+I hoped there would be a skip link
+
 Other notes or recommendations:
+
+Would suggest adding a skip link that would redirect the reader to the main content area
 
 ### Interactive Areas
 
@@ -122,16 +150,21 @@ All buttons, links, form fields, or similar interactive areas can be both access
 
 | Interactive area | Able to navigate to the area (yes/no/not applicable) | Able to input information (yes/no/not applicable) | Able to activate the area (yes/no/not applicable) |
 |---|---|---|---|
-| Button 1| a | b | c |
-| Button 2| d | e | f |
-| Button 3 | g | h | i |
-| Link 1 | j | k | l |
-| Link 2 | m | n | o |
-| Form field 1 | p | q | r |
-| Add table rows as needed! |  |  |  |
-| |  |  |  |
+| Fullscreen mode button | yes | n/a | yes (pressing Enter or Space key turns on/off fullscreen mode) |
+| GitHub icon dropdown | no | n/a | no (but if I open the dropdown with a mouse click, then I can activate the dropdown options with keyboard) |
+| Download icon dropdown | no | n/a | no (but if I open the dropdown with a mouse click, then I can activate the dropdown options with keyboard) |
+| Toggle navigation button ("hamburger" / triple line) | no | no | no |
+| Read the Docs version switcher | no | no | no |
+| Links in left side nav (Jupyter accessibility logo link to Jupyter Book link) | yes | n/a | yes (pressing Enter key opens the link) |
+| Links in main area (from "Classic Jupyter Notebook" to "Next Jupyter Accessibility Statement") | yes | n/a | yes (pressing Enter key opens the link) |
+| The two links in the right side nav | yes | n/a | yes (ditto) |
+| Search this book... | yes | yes | yes (pressing Enter after typing search term performs a search on the docs) |
+| Collapse/expand button in left nav | no | n/a | no |
 
 Other notes by area:
+- Left side nav:
+    - While the collapse/expand buttons in the left side nav cannot be accessed (and therefore can be activated using only the keyboard), the link adjacent to each expand button can be opened using the keyboard, which as the effect (after a round trip to the server) of opening/expanding that section in the side nav. But the expand/collapse button should be usable with only a keyboard.
+    - The search field has an clear "X" button that appears when you start typing characters in the search field. That X button is not reachable via keyboard; however, I'm not sure it's really needed... at least if you know that you can type ctrl+a followed by the delete key in order to quickly delete everything you typed into the the field.
 
 ### Focus
 
@@ -166,21 +199,21 @@ It is possible to complete tasks while switching between input mechanisms, for e
 5. If the task has multiple steps, the reviewer can try using a different interaction for each step.
 6. Repeat as needed across interactive areas.
 
-#### Task name + region
-
-Repeat this section as needed for each task or region the reviewer evaluates.
+#### Page drop down menus (ie. GitHub and Download icons)
 
 Does the task have multiple steps? If yes, please list them.
-Result:
+Result: Tab to focus the page menu (GitHub and Download icons), reach focus for a menu with a drop down available, press space or enter, drop down menu appears, navigate drop down menu, select drop down item.
 
 Can the task be completed with only keyboard controls?
-Result:
+Result: No. The menus can be tabbed to, but they cannot be activated to open the drop down with the keyboard. They can be activated and navigated with a mouse. Even if the menus are opened with a mouse, the user cannot switch to navigate them with a keyboard.
+
+I was also surprised because the left and right arrow keys—typically used for fine-grain navigation through things like drop down menu items—immediately move me to the next page in the documentation. I am guessing this is because Jupyter Book is modeled like a book where turning pages to continue reading is high priority. The fact that it overrides keyboard navigation, concurrent with other navigation methods or not, is a problem.
 
 Can the task be completed with only mouse controls?
-Result:
+Result: Yes.
 
-Can the task be completed with only touch screen contorls?
-Result:
+Can the task be completed with only touch screen controls?
+Result: n/a
 
 ### Keyboard shortcuts
 
