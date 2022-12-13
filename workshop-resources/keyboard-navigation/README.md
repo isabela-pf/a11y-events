@@ -19,7 +19,7 @@ Listed from oldest to newest
 | Year | Project | Working location | Contributing location | Status | Other info | 
 |------|---------|------------|-----------------|--------|------------|
 | 2022 | Jupyter Notebook 7 | [isabela-pf/a11y-events #10](https://github.com/isabela-pf/a11y-events/pull/10) | [jupyter/notebook #6595](https://github.com/jupyter/notebook/issues/6595) | Contributed |  |
-|  |  |  |  |  |  |
+| 2022 | jupyter/accessibility Documentation | [isabela-pf/a11y-events #10](https://github.com/isabela-pf/a11y-events/pull/11) | [jupyter/accessibility #114](https://github.com/jupyter/accessibility/issues/114) | Contributed |  |
 
 ## Roll the credits
 
