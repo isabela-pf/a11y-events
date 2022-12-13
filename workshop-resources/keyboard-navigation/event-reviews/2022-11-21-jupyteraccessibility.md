@@ -4,9 +4,9 @@ Please add your findings as [GitHub suggestions](https://docs.github.com/en/pull
 
 ## Keyboard navigation accessibility review of [Jupyter accessibility documentation](https://jupyter-accessibility.readthedocs.io/en/latest/index.html)
 
-Reviewed via based on [this link we'll all be working off of](https://jupyter-accessibility.readthedocs.io/en/latest/index.html).
+Reviewed via browser based on [this link we'll all be working off of](https://jupyter-accessibility.readthedocs.io/en/latest/index.html).
 
-- Review date:
+- Review date: 21 November 2022
 - Operating system:
 - Browser: 
 - Keyboard language(s) used:
@@ -14,15 +14,14 @@ Reviewed via based on [this link we'll all be working off of](https://jupyter-ac
 
 ### Authors and contents
 
-- Content order: (add author(s))
-- Areas to navigate: (add author(s))
-- Keyboard/tab traps: (add author(s))
-- Skip links: (add author(s)) @trallard
+- Content order: @trallard
+- ~~Areas to navigate:~~ Not completed
+- ~~Keyboard/tab traps:~~ Not completed
+- Skip links: @trallard
 - Interactive Areas: @gabalafou
-- Focus: (add author(s))
+- ~~Focus:~~ Not completed
 - Mixed input: @isabela-pf 
-- Keyboard shortcuts: (add author(s))
-- Additional authors: (add author(s))
+- ~~Keyboard shortcuts:~~ Not completed
 
 ## Review
 
@@ -70,39 +69,6 @@ Result:
 
 - There is no way to access the dropdown menus in the left-sidebar
 - Cannot access the hamburger menu (which should be a collapse icon instead)
-
-Other notes or recommendations:
-
-### Areas to navigate
-
-All areas of the tool can be accessed using keyboard navigation. ([WCAG 2.2 Keyboard](https://www.w3.org/TR/WCAG22/#keyboard))
-
-1. Navigate via the Tab key major content areas
-2. Use the arrow keys to navigate within major content areas.
-
-| Area | Able to navigate to the area (yes/no/not applicable) | Able to navigate fully within the area (yes/no/not applicable) | Able to navigate out of the area (yes/no/not applicable) |
-|---|---|---|---|
-| Navigation 1 | a | b | c |
-| Navigation 2 | d | e | f |
-| Aside/related content | g | h | i |
-| Main area | j | k | l |
-| Main area section | m | n | o |
-| Footer | p | q | r |
-
-Other notes by area:
-
-### Keyboard/tab traps
-
-When navigating via keyboard, there are no areas where keyboard focus can enter but not exit. The focus never gets "trapped." ([WCAG 2.2 No keyboard trap](https://www.w3.org/TR/WCAG22/#no-keyboard-trap))
-
-1. From the top of the page, press the Tab key repeatedly until reviewer reaches the end of content.
-2. Reviewers will know it is the end because if they press Tab once more their keyboard focus will return to the browser.
-3. If the reviewer cannot make it to the end of content, please take note of where the focus gets stuck. If the reviewer can make it to all content, please note.
-4. Optional: complete steps 1–3 over any areas that may have been missed by the content order. Using the mouse to move focus to an area and trying to tab out may be helpful for these cases.
-
-Keyboard/tab traps:
-- tab trap 1
-- tab trap 2
 
 Other notes or recommendations:
 
@@ -166,28 +132,6 @@ Other notes by area:
     - While the collapse/expand buttons in the left side nav cannot be accessed (and therefore can be activated using only the keyboard), the link adjacent to each expand button can be opened using the keyboard, which as the effect (after a round trip to the server) of opening/expanding that section in the side nav. But the expand/collapse button should be usable with only a keyboard.
     - The search field has an clear "X" button that appears when you start typing characters in the search field. That X button is not reachable via keyboard; however, I'm not sure it's really needed... at least if you know that you can type ctrl+a followed by the delete key in order to quickly delete everything you typed into the the field.
 
-### Focus
-
-There is a visible focus state for all content. It appears by default when navigating via keyboard. ([WCAG 2.2 Focus visible](https://www.w3.org/TR/WCAG22/#focus-visible))
-
-1. From the top of the page, press the Tab key repeatedly until reviewer reaches the end of content. 
-2. If end of content cannot be reached, the reviewer may report on what they could interact with.
-3. If the reviewer is comfortable, they may also use the browser inspector to select an area and toggle focus per area.
-
-Is there visible focus styling? If so, please briefly describe it.
-Result:
-
-Is the focus styling consistent throughout?
-Result:
-
-Are there any areas without visible focus styling?
-Result: 
-
-Was the reviewer ever unclear about where their keyboard focus was during the review? If so, please note where or why.
-Result:
-
-Other notes or recommendations:
-
 ### Mixed input
 
 It is possible to complete tasks while switching between input mechanisms, for example using a keyboard and mouse and touch screen. ([WCAG 2.2 Concurrent input mechanisms](https://www.w3.org/TR/WCAG22/#concurrent-input-mechanisms))
@@ -214,42 +158,3 @@ Result: Yes.
 
 Can the task be completed with only touch screen controls?
 Result: n/a
-
-### Keyboard shortcuts
-
-Keyboard shortcuts--key combinations that initiate an action-- may not inhibit keyboard navigation. Keyboard shortcuts also need to be configurable. ([WCAG 2.2 Character key shortcuts](https://www.w3.org/TR/WCAG22/#character-key-shortcuts))
-
-[List of shortcuts for this tool]().
-
-1. Search for where keyboard shortcut settings may be edited.
-2. Review list of keyboard shortcuts.
-3. Choose a shortcut and answer the prompts.
-4. Repeat as needed.
-
-Can shortcuts be turned off?
-Result:
-
-Can shortcuts be configured (remapped to different keys than the default)?
-Result:
-
-Do any shortcuts conflict with browser or operating system controls?
-Result:
-
-Other notes or recommendations:
-
-#### Shortcut name
-
-Repeat this section as needed for each shortcut the reviewer evaluates.
-
-Shortcut keys:
-
-How many keys are needed?
-Result: 
-
-How close together are the keys?
-Result:
-
-Does the shortcut only activate when focus is on the related part of the interface?
-Result:
-
-Other notes or recommendations:
