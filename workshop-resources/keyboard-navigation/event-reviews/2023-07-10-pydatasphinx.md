@@ -16,12 +16,12 @@ Reviewed via based on [this link we'll all be working off of](https://pydata-sph
 
 Please add your name to the test(s) you plan to undetake via [GitHub suggestions](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/commenting-on-a-pull-request) so you are credited in the commit history!
 
-- Content order: (add author(s))
+- Content order: @smeragoel)
 - Areas to navigate: (add author(s))
-- Keyboard/tab traps: (add author(s))
-- Skip links: (add author(s))
+- Keyboard/tab traps: @gabalafou 
+- Skip links: @isabela-pf 
 - Interactive Areas: (add author(s))
-- Focus: (add author(s))
+- Focus: @steff456 
 - Mixed input: (add author(s))
 - Keyboard shortcuts: (add author(s))
 - Additional authors: (add author(s))
