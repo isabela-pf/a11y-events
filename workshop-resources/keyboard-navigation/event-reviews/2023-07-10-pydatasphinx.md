@@ -94,6 +94,16 @@ Keyboard/tab traps:
 
 Other notes or recommendations:
 
+[@gabalafou]: I did not find any tab traps. I checked several different pages: 
+
+- [home](https://pydata-sphinx-theme.readthedocs.io/en/latest/index.html)
+- [kitchen sink](https://pydata-sphinx-theme.readthedocs.io/en/latest/examples/kitchen-sink/index.html)
+- [PyData library styles](https://pydata-sphinx-theme.readthedocs.io/en/latest/examples/pydata.html)
+- [execution libraries](https://pydata-sphinx-theme.readthedocs.io/en/latest/examples/execution.html)
+- and more
+
+I doubt there are any tab traps on this site because it is not a very interactive site. 
+
 #### Skip links
 
 When using keyboard navigation, there is a link to switch keyboard focus directly to the tool's main content and skip header navigation or repeated content. ([WCAG 2.2 Bypass Blocks](https://www.w3.org/TR/WCAG22/#bypass-blocks))
@@ -127,7 +137,7 @@ All buttons, links, form fields, or similar interactive areas can be both access
 
 | Interactive area | Able to navigate to the area (yes/no/not applicable) | Able to input information (yes/no/not applicable) | Able to activate the area (yes/no/not applicable) |
 |---|---|---|---|
-| Button 1| a | b | c |
+| "Back to top" button | no | n/a | no |
 | Button 2| d | e | f |
 | Button 3 | g | h | i |
 | Link 1 | j | k | l |
